@@ -39,7 +39,7 @@
     <!-- Protected Constant Block End -->
 
     <!-- Protected Internal Constant Block Start -->
-    <Entry DisplayName="ProtectedInternal constant" Priority="10">
+    <Entry DisplayName="ProtectedInternal constant" Priority="100">
       <Entry.Match>
         <And>
           <Access Is="ProtectedInternal"/>
@@ -51,6 +51,34 @@
       </Entry.SortBy>
     </Entry>
     <!-- Protected Internal Constant Block End -->
+
+    <!-- Private Protected Constant Block Start -->
+    <Entry DisplayName="Private Protected constant" Priority="100">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+    <!-- Private Protected Constant Block End -->
+
+    <!-- Private Constant Block Start -->
+    <Entry DisplayName="Protected bool constant" Priority="100">
+      <Entry.Match>
+        <And>
+          <Access Is="Private"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+    <!-- Private Constant Block End -->
     
   </TypePattern>
 </Patterns>

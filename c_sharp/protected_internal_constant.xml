@@ -1,7 +1,7 @@
 <Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
   <TypePattern>
     <!-- Protected Internal Constant Block Start -->
-    <Entry DisplayName="ProtectedInternal constant" Priority="10">
+    <Entry DisplayName="ProtectedInternal constant" Priority="100">
       <Entry.Match>
         <And>
           <Access Is="ProtectedInternal"/>

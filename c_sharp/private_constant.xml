@@ -1,10 +1,10 @@
 <Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
   <TypePattern>
-    <!-- Private Protected Constant Block Start -->
-    <Entry DisplayName="Private Protected constant" Priority="100">
+    <!-- Private Constant Block Start -->
+    <Entry DisplayName="Protected bool constant" Priority="100">
       <Entry.Match>
         <And>
-          <Access Is="PrivateProtected"/>
+          <Access Is="Private"/>
           <Kind Is="Constant"/>
         </And>
       </Entry.Match>
@@ -12,6 +12,6 @@
         <Name/>
       </Entry.SortBy>
     </Entry>
-    <!-- Private Protected Constant Block End -->
+    <!-- Private Constant Block End -->
   </TypePattern>
 </Patterns>

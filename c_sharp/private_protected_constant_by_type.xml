@@ -1,0 +1,124 @@
+<Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
+  <TypePattern>
+
+    <!-- Private Protected Constant Block Start -->
+    <Entry DisplayName="PrivateProtected bool constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Type Is="bool"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+
+    <Entry DisplayName="PrivateProtected int constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Type Is="int"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+
+    <Entry DisplayName="PrivateProtected long constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Type Is="long"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+
+    <Entry DisplayName="PrivateProtected float constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Type Is="float"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+
+    <Entry DisplayName="PrivateProtected double constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Type Is="double"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+
+    <Entry DisplayName="PrivateProtected decimal constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Type Is="decimal"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+
+    <Entry DisplayName="PrivateProtected char constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Type Is="char"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+
+    <Entry DisplayName="PrivateProtected string constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Type Is="string"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+
+    <Entry DisplayName="PrivateProtected enum constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="PrivateProtected"/>
+          <Type Is="enum"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+    <!-- Private Protected Constant Block End -->
+
+  </TypePattern>
+</Patterns>
