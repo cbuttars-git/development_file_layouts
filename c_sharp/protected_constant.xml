@@ -1,116 +1,10 @@
 <Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
   <TypePattern>
-
     <!-- Protected Constant Block Start -->
-    <Entry DisplayName="Protected bool constant" Priority="10">
+    <Entry DisplayName="Protected constant" Priority="100">
       <Entry.Match>
         <And>
           <Access Is="Protected"/>
-          <Type Is="bool"/>
-          <Kind Is="Constant"/>
-        </And>
-      </Entry.Match>
-      <Entry.SortBy>
-        <Name/>
-      </Entry.SortBy>
-    </Entry>
-
-    <Entry DisplayName="Protected int constant" Priority="10">
-      <Entry.Match>
-        <And>
-          <Access Is="Protected"/>
-          <Type Is="int"/>
-          <Kind Is="Constant"/>
-        </And>
-      </Entry.Match>
-      <Entry.SortBy>
-        <Name/>
-      </Entry.SortBy>
-    </Entry>
-
-    <Entry DisplayName="Protected long constant" Priority="10">
-      <Entry.Match>
-        <And>
-          <Access Is="Protected"/>
-          <Type Is="long"/>
-          <Kind Is="Constant"/>
-        </And>
-      </Entry.Match>
-      <Entry.SortBy>
-        <Name/>
-      </Entry.SortBy>
-    </Entry>
-
-    <Entry DisplayName="Protected float constant" Priority="10">
-      <Entry.Match>
-        <And>
-          <Access Is="Protected"/>
-          <Type Is="float"/>
-          <Kind Is="Constant"/>
-        </And>
-      </Entry.Match>
-      <Entry.SortBy>
-        <Name/>
-      </Entry.SortBy>
-    </Entry>
-
-    <Entry DisplayName="Protected double constant" Priority="10">
-      <Entry.Match>
-        <And>
-          <Access Is="Protected"/>
-          <Type Is="double"/>
-          <Kind Is="Constant"/>
-        </And>
-      </Entry.Match>
-      <Entry.SortBy>
-        <Name/>
-      </Entry.SortBy>
-    </Entry>
-
-    <Entry DisplayName="Protected decimal constant" Priority="10">
-      <Entry.Match>
-        <And>
-          <Access Is="Protected"/>
-          <Type Is="decimal"/>
-          <Kind Is="Constant"/>
-        </And>
-      </Entry.Match>
-      <Entry.SortBy>
-        <Name/>
-      </Entry.SortBy>
-    </Entry>
-
-    <Entry DisplayName="Protected char constant" Priority="10">
-      <Entry.Match>
-        <And>
-          <Access Is="Protected"/>
-          <Type Is="char"/>
-          <Kind Is="Constant"/>
-        </And>
-      </Entry.Match>
-      <Entry.SortBy>
-        <Name/>
-      </Entry.SortBy>
-    </Entry>
-
-    <Entry DisplayName="Protected string constant" Priority="10">
-      <Entry.Match>
-        <And>
-          <Access Is="Protected"/>
-          <Type Is="string"/>
-          <Kind Is="Constant"/>
-        </And>
-      </Entry.Match>
-      <Entry.SortBy>
-        <Name/>
-      </Entry.SortBy>
-    </Entry>
-
-    <Entry DisplayName="Protected enum constant" Priority="10">
-      <Entry.Match>
-        <And>
-          <Access Is="Protected"/>
-          <Type Is="enum"/>
           <Kind Is="Constant"/>
         </And>
       </Entry.Match>
@@ -119,6 +13,5 @@
       </Entry.SortBy>
     </Entry>
     <!-- Protected Constant Block End -->
-
   </TypePattern>
 </Patterns>
