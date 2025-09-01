@@ -38,5 +38,19 @@
     </Entry>
     <!-- Protected Constant Block End -->
 
+    <!-- Protected Internal Constant Block Start -->
+    <Entry DisplayName="ProtectedInternal constant" Priority="10">
+      <Entry.Match>
+        <And>
+          <Access Is="ProtectedInternal"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name/>
+      </Entry.SortBy>
+    </Entry>
+    <!-- Protected Internal Constant Block End -->
+    
   </TypePattern>
 </Patterns>
