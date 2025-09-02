@@ -1,17 +1,17 @@
 <Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
   <TypePattern>
-    <!-- Protected Internal Constant Block Start -->
-    <Entry DisplayName="Protected Internal Constant" Priority="100">
+    <!-- Internal Field Block Start -->
+    <Entry DisplayName="Internal Field" Priority="99">
       <Entry.Match>
         <And>
-          <Access Is="ProtectedInternal"/>
-          <Kind Is="Constant"/>
+          <Access Is="Internal"/>
+          <Kind Is="Field"/>
         </And>
       </Entry.Match>
       <Entry.SortBy>
         <Name Direction="Descending"/>
       </Entry.SortBy>
     </Entry>
-    <!-- Protected Internal Constant Block End -->
+    <!-- Internal Field Block End -->
   </TypePattern>
 </Patterns>

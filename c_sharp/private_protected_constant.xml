@@ -1,7 +1,7 @@
 <Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
   <TypePattern>
     <!-- Private Protected Constant Block Start -->
-    <Entry DisplayName="Private Protected constant" Priority="100">
+    <Entry DisplayName="Private Protected Constant" Priority="100">
       <Entry.Match>
         <And>
           <Access Is="PrivateProtected"/>
@@ -9,7 +9,7 @@
         </And>
       </Entry.Match>
       <Entry.SortBy>
-        <Name/>
+        <Name Direction="Descending"/>
       </Entry.SortBy>
     </Entry>
     <!-- Private Protected Constant Block End -->

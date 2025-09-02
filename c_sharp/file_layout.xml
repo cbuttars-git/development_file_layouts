@@ -10,7 +10,7 @@
       </Or>
     </TypePattern.Match>
 
-    <!-- Public Constant Block Start -->
+    <!-- 0010 Public Constant Block Start -->
     <Entry DisplayName="Public constant" Priority="100">
       <Entry.Match>
         <And>
@@ -19,12 +19,12 @@
         </And>
       </Entry.Match>
       <Entry.SortBy>
-        <Name/>
+         <Name Direction="Descending"/>
       </Entry.SortBy>
     </Entry>
     <!-- Public Constant Block End -->
 
-    <!-- Protected Constant Block Start -->
+    <!-- 0020 Protected Constant Block Start -->
     <Entry DisplayName="Protected constant" Priority="100">
       <Entry.Match>
         <And>
@@ -33,12 +33,12 @@
         </And>
       </Entry.Match>
       <Entry.SortBy>
-        <Name/>
+         <Name Direction="Descending"/>
       </Entry.SortBy>
     </Entry>
     <!-- Protected Constant Block End -->
 
-    <!-- Protected Internal Constant Block Start -->
+    <!-- 0030 Protected Internal Constant Block Start -->
     <Entry DisplayName="ProtectedInternal constant" Priority="100">
       <Entry.Match>
         <And>
@@ -47,12 +47,26 @@
         </And>
       </Entry.Match>
       <Entry.SortBy>
-        <Name/>
+         <Name Direction="Descending"/>
       </Entry.SortBy>
     </Entry>
     <!-- Protected Internal Constant Block End -->
 
-    <!-- Private Protected Constant Block Start -->
+    <!-- 0040 Internal Constant Block Start -->
+    <Entry DisplayName="Internal constant" Priority="100">
+      <Entry.Match>
+        <And>
+          <Access Is="Internal"/>
+          <Kind Is="Constant"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+         <Name Direction="Descending"/>
+      </Entry.SortBy>
+    </Entry>
+    <!-- Internal Constant Block End -->
+    
+    <!-- 0050 Private Protected Constant Block Start -->
     <Entry DisplayName="Private Protected constant" Priority="100">
       <Entry.Match>
         <And>
@@ -61,13 +75,13 @@
         </And>
       </Entry.Match>
       <Entry.SortBy>
-        <Name/>
+         <Name Direction="Descending"/>
       </Entry.SortBy>
     </Entry>
     <!-- Private Protected Constant Block End -->
 
-    <!-- Private Constant Block Start -->
-    <Entry DisplayName="Protected bool constant" Priority="100">
+    <!-- 0060 Private Constant Block Start -->
+    <Entry DisplayName="Private constant" Priority="100">
       <Entry.Match>
         <And>
           <Access Is="Private"/>
@@ -75,10 +89,38 @@
         </And>
       </Entry.Match>
       <Entry.SortBy>
-        <Name/>
+         <Name Direction="Descending"/>
       </Entry.SortBy>
     </Entry>
     <!-- Private Constant Block End -->
+
+    <!--  0070 Public Field Block Start -->
+    <Entry DisplayName="Public Field" Priority="99">
+      <Entry.Match>
+        <And>
+          <Access Is="Public"/>
+          <Kind Is="Field"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name Direction="Descending"/>
+      </Entry.SortBy>
+    </Entry>
+    <!-- Public Field Block End -->
+
+    <!-- 0080 Protected Field Block Start -->
+    <Entry DisplayName="Protected Field" Priority="99">
+      <Entry.Match>
+        <And>
+          <Access Is="Protected"/>
+          <Kind Is="Field"/>
+        </And>
+      </Entry.Match>
+      <Entry.SortBy>
+        <Name Direction="Descending"/>
+      </Entry.SortBy>
+    </Entry>
+    <!-- Protected Field Block End -->
     
   </TypePattern>
 </Patterns>

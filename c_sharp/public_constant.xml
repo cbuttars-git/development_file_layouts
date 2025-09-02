@@ -1,7 +1,7 @@
 <Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
   <TypePattern>
     <!-- Public Constant Block Start -->
-    <Entry DisplayName="Public bool constant" Priority="100">
+    <Entry DisplayName="Public Constant" Priority="100">
       <Entry.Match>
         <And>
           <Access Is="Public"/>
@@ -9,7 +9,7 @@
         </And>
       </Entry.Match>
       <Entry.SortBy>
-        <Name/>
+        <Name Direction="Descending"/>
       </Entry.SortBy>
     </Entry>
     <!-- Public Constant Block End -->
